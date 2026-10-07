@@ -1,0 +1,21 @@
+{
+  "name": "gcode-interp",
+  "version": "1.0.0",
+  "description": "G-code 平面圆弧与模态坐标解释后端",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --import tsx --test test/*.test.ts",
+    "build": "tsc",
+    "start": "node dist/cli.js serve",
+    "demo": "node dist/cli.js demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
